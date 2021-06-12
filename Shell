@@ -1,0 +1,8 @@
+1. Returns the number of httpd processes on the current machine
+
+pgrep httpd | wc -l
+
+
+2. Change .txt file to .dat
+
+for x in mig33/inner.folder/*.txt; do mv "$x" "${x%.txt}.dat"; done
